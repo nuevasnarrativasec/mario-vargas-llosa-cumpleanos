@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Para que Google no indexe esto-->
+    <meta name="googlebot" content="noindex" />
+    <meta name="googlebot-news" content="nosnippet" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!---->  
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVLL</title>
+
+    <link rel="stylesheet" href="../css/style-portada.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <style>   
+        .ads__zocalo,
+        .ribbon__container,
+        .grippy-host,     
+        .skin-template-model0,
+        #gpt_zocalo, 
+        #clever-45754-sticky-footer-shadow,
+        #browsi_wrapper_0_ai_1_rc_0,
+        #browsi_wrapper_1_ai_1_rc_0,
+        #browsi_wrapper_2_ai_1_rc_0,
+        #browsi_wrapper_3_ai_1_rc_0,
+        #browsi_wrapper_4_ai_1_rc_0,
+        #browsi_wrapper_5_ai_1_rc_0,
+        #browsi_wrapper_6_ai_1_rc_0,
+        #browsi_wrapper_7_ai_1_rc_0,
+        #browsi_wrapper_8_ai_1_rc_0,
+        #browsi_wrapper_9_ai_1_rc_0,
+        #browsi_wrapper_10_ai_1_rc_0{
+            display: none !important;
+            height: 0 !important;
+        }  
+        .nav-d__main-scroll.scrolled{
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-comercio">
+            <div class="ctn-header-comercio">                
+                <div id="social">
+                    <button id="fb" class="sharer button" data-sharer="facebook" data-hashtag="" data-url="#">Facebook</button>
+
+                    <button id="wst" class="sharer button" data-sharer="whatsapp" data-title="El Comercio" data-url="#">Whatsapp</button>
+
+                    <button id="tw" class="sharer button" data-sharer="twitter" data-title="El Comercio" data-hashtags="" data-via='elcomercio_peru' data-url="#">Twitter</button>
+                </div>
+            </div>            
+        </div>        
+    </header>
+
+    <div class="main-portada">
+        <div class="box-cover-portada">
+            <img src="../img/mvll.webp" alt="" width="100%">
+            <div class="box-titulo">
+                <h2>El escritor universal</h2>
+                <h1>mario vargas llosa</h1>
+                <h5>introducción</h5>
+                <h6 id="btn-movil">Selecciona un capítulo</h6>
+            </div>
+            <div class="separador"></div>
+            <ul class="menu">
+                <div class="btn-cerrar">X</div>
+                <li>
+                    <span>Selecciona un capítulo</span>
+                </li>
+                <li>
+                    <p>
+                        <a href="./capitulo-1/" target="_self"><span>Capítulo 1</span></a>
+                        <br>
+                        <a href="./capitulo-1/" target="_self">Una vida en fotos</a>
+                    </p>                    
+                </li>
+                <li>
+                    <p>
+                        <a href="#" target="_self"><span>Capítulo 2</span></a>
+                        <br>
+                        <a href="#" target="_self">Obras literarias y ensayos</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="#" target="_self"><span>Capítulo 3</span></a>
+                        <br>
+                        <a href="#" target="_self">10 personajes entrañables</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="#" target="_self"><span>Capítulo 4</span></a>
+                        <img src="../img/logo-ecdata.png" alt="" width="100%">
+                        <br>
+                        <a href="#" target="_self">En cada esquina de sus letras:</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="#" target="_self"><span>Capítulo 5</span></a>
+                        <br>
+                        <a href="#" target="_self">Lo que significa un nobel</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="box-intro" id="box-intro">
+        <h3>un legado literario</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat.
+        </p>
+        <h4>
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+        </h4>
+    </div>
+
+    <!-- scroll introducción -->
+    <script>
+        document.querySelector(".box-titulo h5").addEventListener("click", function () {
+            const quizElement = document.getElementById("box-intro");
+            if (quizElement) {
+                quizElement.scrollIntoView({ behavior: "smooth" });
+            }
+        });
+    </script>
+
+    <!-- menu móvil -->
+    <script>
+        document.getElementById("btn-movil").addEventListener("click", function() {
+            document.querySelector("ul.menu").classList.toggle("menu-activo");
+        });
+        document.querySelector(".btn-cerrar").addEventListener("click", function() {
+            document.querySelector("ul.menu").classList.remove("menu-activo");
+        });
+    </script>
+    
+</body>
+</html>

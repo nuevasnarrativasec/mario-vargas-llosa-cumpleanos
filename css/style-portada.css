@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'founders_groteskregular';
+    src: url('../fonts/foundersgrotesk-regular-webfont.woff2') format('woff2'),
+         url('../fonts/foundersgrotesk-regular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('../fonts/FoundersGrotesk-Bold.woff2') format('woff2'),
+        url('../fonts/FoundersGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Founders Grotesk X-Condensed';
+    src: url('../fonts/FoundersGroteskXCond-Bold.woff2') format('woff2'),
+         url('../fonts/FoundersGroteskXCond-Bold.woff') format('woff');
+    font-weight: bold;            
+}
+@font-face {
+    font-family: 'prelobook'; 
+    src: url('../fonts/Prelo-Book-webfont.woff2') format('woff2'),
+         url('../fonts/Prelo-Book-webfont.woff') format('woff');
+}
+
+.clear{
+    clear: both;
+}
+
+body, html {    
+    margin: 0;    
+    padding: 0;   
+    font-display: swap; 
+    font-style: normal;   
+    font-weight: normal;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#header{
+    margin-bottom: 50px;
+    width: 100%;
+}
+    .header-comercio{   
+        background: #000;    
+        position: relative;
+        width: 100%;
+        z-index: 9999999;
+    }
+        .ctn-header-comercio{
+            margin: 0 auto;     
+            max-width: 1024px;
+            padding: 0 5px;
+            text-align: right;
+        }
+            .ctn-header-comercio a{
+                display: inline-block;                
+                text-indent: -9999px;
+            }
+                a.logo-comercio{
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/somos-35-anos-mejores-portadas-ecpm/img/logo-comercio.png?v2) no-repeat 0 0;
+                    background-size: 100%;
+                    display: none;
+                    height: 30px;
+                    margin-top: 10px;
+                    width: 110px;
+                }
+                #social{
+                        float: right;
+                        margin: 20px;
+                        position: absolute;
+                        right: 0;
+                        z-index: 600;
+                }
+                #social ul{
+                    display: inline-block;
+                    margin: 0 auto;
+                    padding: 0;
+                    vertical-align: middle;
+                }
+                    #social ul li{
+                        display: inline-block;
+                        margin: 0 3px;
+                        vertical-align: middle;
+                    }
+                        #social ul li a{
+                            height: 36px;
+                            width: 36px;
+                        }
+                        #fb{
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/fb-icon.png?v2) no-repeat 0 0;
+                            background-size: 100% !important;
+                            border: none;
+                            display: inline-block;
+                            height: 36px;
+                            text-indent: -9999px;
+                            width: 36px;
+                        }
+                        #wst{                
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/wsp-icon.png?v2) no-repeat 0 0 !important;
+                            background-size: 100% !important;
+                            border: none;
+                            display: none;
+                            height: 36px;
+                            text-indent: -9999px;
+                            width: 36px;
+                        }
+                        #tw{            
+                            background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/tw-icon.png?v2) no-repeat 0 0 !important;
+                            background-size: 100% !important;
+                            border: none;
+                            display: inline-block;
+                            height: 36px;
+                            text-indent: -9999px;
+                            width: 36px;
+                        } 
+.main-portada{
+    background: url('../img/bg-portada.webp') no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+    .box-cover-portada{
+        bottom: 0;
+        box-sizing: border-box;
+        display: inline-block;
+        left: 50%;
+        position: absolute;
+        vertical-align: bottom;   
+        width: 100%; 
+        
+        transform: translate(-50%);
+    }
+        .box-cover-portada img{
+            display: inline-block;
+            max-width: 450px;
+            vertical-align: bottom;
+        }
+        .box-titulo{
+            display: inline-block;
+            margin-left: -65px;
+            max-width: 300px;  
+            padding-top: 115px;
+            text-align: left;
+            vertical-align: top;
+        }
+            .box-titulo h2{
+                font: 2rem/1.2 "Cormorant Garamond", serif;
+                font-style: italic;
+                font-weight: 700;
+                margin: 0 auto 15px;
+            }
+            .box-titulo h1{
+                font: 7rem/.8 'Founders Grotesk X-Condensed';
+                margin: 0 auto;
+                text-transform: uppercase;
+            }
+            .box-titulo h5,
+            .box-titulo h6{
+                background-color: #fff;
+                border: 1px solid #000;
+                cursor: pointer;
+                font: 1.2rem/1 'Founders Grotesk X-Condensed';
+                margin: 0;
+                max-width: 180px;
+                padding: 18px 0 10px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        .separador{
+            background-color: #000;
+            display: inline-block;
+            height: 80vh;
+            margin: 0 10px;
+            vertical-align: bottom;
+            width: 1px;
+        }
+        ul.menu{
+            display: inline-block;
+            list-style: none;
+            padding: 0;
+            padding-top: 115px;
+            vertical-align: top;
+        }
+            ul.menu li{               
+                text-align: left;
+            }
+                ul.menu li span{
+                    color: #acacac;
+                    display: block;
+                    font: 1rem/1.2 'prelobook'; 
+                }
+                ul.menu li p{
+                    font: 1.4rem/1.2 "Cormorant Garamond", serif;
+                    font-style: italic;
+                    font-weight: 700;
+                }
+                    ul.menu li p span{
+                        color: #fff;
+                        display: inline-block;
+                        font: 1.2rem/1 "Cormorant Garamond", serif;
+                        font-style: italic;
+                        font-weight: 700;
+                        padding: 5px 10px;
+                    }
+                    ul.menu li:nth-child(3) p span{
+                        background-color: #98612B;
+                    }
+                    ul.menu li:nth-child(4) p span{
+                        background-color: #C79423;
+                    }
+                    ul.menu li:nth-child(5) p span{
+                        background-color: #98832B;
+                    }
+                    ul.menu li:nth-child(6) p span{
+                        background-color: #613472;
+                    }   
+                        ul.menu li:nth-child(6) p img{
+                            display: inline-block;
+                            margin-bottom: 5px;
+                            max-width: 80px;
+                        }                                           
+                    ul.menu li:nth-child(7) p span{
+                        background-color: #000;
+                    }                                                 
+                    ul.menu li p a{
+                        color: #000;
+                        text-decoration: none;
+                    }
+.box-intro{
+    text-align: center;
+}
+    .box-intro h3{
+        font: 3.5rem/1 'Founders Grotesk';
+        margin: 0 auto;
+        padding: 70px 0 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .box-intro p{
+        display: inline-block;
+        font: 1.1rem/1.3 'founders_groteskregular';
+        margin: 0 10px;
+        max-width: 260px;
+        vertical-align: top;
+        text-align: left;
+    }
+    .box-intro h4{
+        font: 2rem/1.2 "Cormorant Garamond", serif;
+        font-style: italic;
+        font-weight: 300;
+        margin: 50px auto;
+        max-width: 450px;
+    }
+#btn-movil,
+.btn-cerrar{
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .main-portada{
+        overflow: auto;
+    }
+        .box-cover-portada{
+            bottom: inherit;
+            left: 0;
+            transform: none;
+            top: 0;
+        }
+            .box-cover-portada img{
+                display: block;
+                margin: 30px auto 10px;
+                max-width: 55%;
+            }
+            .box-titulo h1{
+                font-size: 5.5rem;
+            }
+    .separador{
+        display: none;
+    }
+    .box-titulo{
+        margin-left: inherit;
+        padding-top: 0;
+        text-align: center;
+    }
+    .box-titulo h5{
+        display: none;
+    }
+    .box-titulo h6{
+        font: 1rem/1.2 'prelobook'; 
+        margin: 10px auto;
+        text-transform: none;
+    }
+    .box-intro h4{
+        padding: 0 20px;
+    }
+    #btn-movil{
+        display: block;
+    }
+    .main-portada .menu{
+        background: #fff;
+        box-sizing: border-box;
+        display: none;
+        height: 100vh;
+        left: 0;
+        margin: 0 auto;     
+        padding: 40px 20px 20px;   
+        position: fixed;
+        top: 0;
+        width: 100%;        
+        z-index: 99999999;        
+    }
+    ul.menu li{
+        border-bottom: 1px solid #c2c2c2;
+    }
+        ul.menu li p{
+            margin-bottom: 10px;
+        }
+    ul.menu li:nth-child(1){
+        border-bottom: none;
+    }
+    ul.menu li:nth-child(6) p img{
+        margin-top: 0;
+    }
+    .btn-cerrar{
+        background-color: #000;
+        color: #fff;
+        font: 1.1rem/2 'Founders Grotesk X-Condensed';        
+        padding: 5px 0 0 0;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 40px;
+    }
+    .main-portada .menu-activo,
+    .btn-cerrar{
+        display: block;
+    }
+
+}
