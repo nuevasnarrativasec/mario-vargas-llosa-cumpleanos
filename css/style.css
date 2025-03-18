@@ -676,36 +676,47 @@ body, html {
         text-align: left;
         vertical-align: top;
     }
-    #foto-1{
+    #foto-1,
+    #foto-9,
+    #foto-17{
         margin-bottom: 30px;
         max-width: 600px;
     }
-    #foto-2{
+    #foto-2,
+    #foto-10,
+    #foto-18{
         max-width: 500px;
     }
-    #foto-3{
+    #foto-3,
+    #foto-11,
+    #foto-21{
         margin-bottom: 30px;
         max-width: 250px;
     }
-    #foto-5{
+    #foto-5,
+    #foto-12{
         display: inline-block;
         margin-bottom: 30px;
         max-width: 410px;
         vertical-align: top;
     }
-    #foto-6{
+    #foto-6,
+    #foto-13{
         display: inline-block;
         margin: 0 30px 30px;
         max-width: 400px;
         vertical-align: top;
     }
-    #foto-7{
+    #foto-7,
+    #foto-14{
         display: inline-block;
-        margin: -150px 30px 30px 0;
+        margin: 30px 30px 30px 0;
         max-width: 330px;
         vertical-align: top;
     }
-    #foto-8{
+    #foto-8,
+    #foto-15,
+    #foto-16{
         display: inline-block;
         margin: 0 30px 30px;
         max-width: 450px;
