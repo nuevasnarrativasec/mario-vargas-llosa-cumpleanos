@@ -63,7 +63,7 @@
         <span class="separador-autor"></span>
     </div>
 
-    <div class="box-resumen" id="resumen-1">
+    <div class="box-resumen" id="resumen-1" style="display: none;">
         <div class="ctn-box-resumen">
             <div class="btn-cerrar">X</div>
             <p>
@@ -280,6 +280,21 @@
         </ul>
     </div>
     
+
+    <script>
+        document.querySelectorAll(".btn-box-info-obra").forEach(btn => {
+            btn.addEventListener("click", function() {
+                const id = this.id.replace("btn-resumen-", "resumen-");
+                document.getElementById(id).style.display = "block";
+            });
+        });
+
+        document.querySelectorAll(".box-resumen .btn-cerrar").forEach(btn => {
+            btn.addEventListener("click", function() {
+                this.closest(".box-resumen").style.display = "none";
+            });
+        });
+    </script>
 
 
 </body>
