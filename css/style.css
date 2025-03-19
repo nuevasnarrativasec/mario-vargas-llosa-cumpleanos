@@ -575,7 +575,7 @@ body, html {
 }
     .box-portada{
         display: inline-block;
-        max-width: 400px;
+        max-width: 300px;
         vertical-align: top;
     }
         .box-portada h4{
@@ -590,7 +590,7 @@ body, html {
         .box-portada img{
             box-shadow: 2px 2px 20px #555555;
             display: inline-block;
-            margin: 0 0 0 40px;
+            margin: 20px 0;
             max-width: 200px;
             vertical-align: top;
         }
@@ -627,8 +627,7 @@ body, html {
             text-align: center;
             text-decoration: none;
             text-transform: uppercase;
-            padding: 5px 10px;
-            
+            padding: 5px 10px;            
         }
     #info-obra-1{
         max-width: 550px;
@@ -647,6 +646,38 @@ body, html {
         }
         .box-obra-derecha .box-portada img{
             margin: 0 40px 0 0;
+        }
+.box-resumen{
+    background: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+    .ctn-box-resumen{
+        background-color: #fff;
+        border: 2px solid #000;
+        box-sizing: border-box;
+        left: 50%;
+        max-width: 400px;
+        position: absolute;        
+        top: 20%;
+        transform: translate(-50%, 0%);        
+    }
+        .ctn-box-resumen p{
+            font: 17px/1.5 'founders_groteskregular';
+            margin: 0 auto;
+            padding: 20px 30px;
+        }
+        .ctn-box-resumen .btn-cerrar{
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            font: 1.2rem/1.2 'prelobold'; 
+            padding: 5px 10px;
+            position: absolute;
+            right: 0;
         }
 .box-separador{
     border-bottom: 1px solid #cfb66e;
