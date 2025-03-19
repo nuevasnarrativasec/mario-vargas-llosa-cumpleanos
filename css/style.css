@@ -722,6 +722,51 @@ body, html {
         max-width: 450px;
         vertical-align: top;
     }
+    #foto-3{
+        max-width: 275px;
+    }
+    #foto-4{
+        margin-bottom: 40px;
+        max-width: 770px;
+    }
+    #foto-6{
+        max-width: 441px;
+    }
+    #foto-7{
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    #foto-10{
+        max-width: 446px;
+    }
+    #foto-11{
+        max-width: 100%;
+    }
+    #foto-14{
+        margin: 0 30px 30px;
+        max-width: 408px;
+    }
+    #foto-15{
+        max-width: 470px;
+        margin: 0 20px 30px; 
+    }
+    #foto-16{
+        max-width: 470px;
+        margin: 0 20px 30px; 
+    }
+    #foto-18,
+    #foto-19{
+        margin: 0 20px 30px;
+        max-width: 470px;
+    }
+    #foto-20{
+        margin: 0 30px 30px;
+        max-width: 400px;
+    }
+    #foto-21{
+        margin: 0 30px 30px;
+        max-width: 390px;
+    }
 .box-personaje{
     margin: 0 auto 20px;
 }
