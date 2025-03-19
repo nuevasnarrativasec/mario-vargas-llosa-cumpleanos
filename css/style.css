@@ -677,10 +677,12 @@ body, html {
             background-color: #000;
             color: #fff;
             cursor: pointer;
-            font: 1.2rem/1.2 'prelobold'; 
+            float: right;
+            font: 1.2rem / 1.2 'prelobold';
             padding: 5px 10px;
-            position: absolute;
-            right: 0;
+            position: sticky;
+            top: 0;
+            width: 15px;            
         }
 .box-separador{
     border-bottom: 1px solid #cfb66e;
@@ -1162,13 +1164,33 @@ h5.sub-nobel{
             }
             .bg-discurso{
                 padding-top: 23px;
-                vertical-align: top;                
-                width: 33% !important;
+                vertical-align: top;     
+            }
+            .box-foto-1,
+            .box-foto-2{
+                display: inline-block;
+                vertical-align: top;
+                width: 49%;
+            }
+                .box-foto-1 img{
+                    margin: 0 auto;
+                    width: 100%;
+                }
+                .box-foto-2 img{
+                    margin: 0 auto;
+                    width: 80%;
+                }
+            .box-foto-1 p,
+            .box-foto-2 p{
+                font: 1rem / 1.4 'Founders Grotesk light';
+                margin: 10px auto;
+                padding: 0 15px;
+                text-align: left;    
             }
         p.leyenda-semana-nobel{
             font: 1rem / 1.4 'Founders Grotesk light';
             margin: 5px auto 40px;
-            max-width: 500px;
+            max-width: 550px;
             padding: 0;
             text-align: left;
             vertical-align: top;
