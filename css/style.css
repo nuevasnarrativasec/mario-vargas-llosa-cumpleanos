@@ -2297,6 +2297,9 @@ ul.decadas{
         background-size: contain;
         height: 300px;
     }
+    .bg-premiacion-1{
+        max-width: 85%;
+    }
 }
 
 
