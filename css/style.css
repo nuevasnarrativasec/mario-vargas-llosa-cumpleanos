@@ -623,7 +623,7 @@ body, html {
             display: block;
             font: 1.2rem / 40px 'Founders Grotesk X-Condensed';
             height: 35px;
-            margin: 10px auto;
+            margin: 20px auto;
             max-width: 120px;
             text-align: center;
             text-decoration: none;
@@ -646,7 +646,7 @@ body, html {
             padding: 20px 40px 0 0;
         }
         .box-obra-derecha .box-portada img{
-            margin: 0 40px 0 0;
+            margin: 0 0 20px;
         }
 .box-resumen{
     background: rgba(255, 255, 255, 0.9);
@@ -659,9 +659,11 @@ body, html {
     .ctn-box-resumen{
         background-color: #fff;
         border: 2px solid #000;
-        box-sizing: border-box;
+        box-sizing: border-box;        
         left: 50%;
-        max-width: 400px;
+        max-height: 65vh;
+        max-width: 400px;        
+        overflow-y: scroll;     
         position: absolute;        
         top: 20%;
         transform: translate(-50%, 0%);        
