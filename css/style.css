@@ -1152,20 +1152,19 @@ h5.sub-nobel{
     }  
         .box-fotos{
             display: inline-block;
-            max-width: 500px;
+            max-width: 1000px;
             vertical-align: top;
         }
             .box-fotos img{
-                display: block;
-                margin-bottom: 20px;
-                width: 100%;
+                display: inline-block;
+                margin: 0 20px 20px;
+                width: 45%;
             }
         p.leyenda-semana-nobel{
-            display: inline-block;
             font: 1rem / 1.4 'Founders Grotesk light';
-            margin: 5px auto;
-            max-width: 300px;
-            padding: 260px 10px 0;
+            margin: 5px auto 40px;
+            max-width: 500px;
+            padding: 0;
             text-align: left;
             vertical-align: top;
         }
@@ -2222,6 +2221,13 @@ ul.decadas{
     }
     #info-obra-1 p {
         max-width: 100%; 
+    }
+    .box-fotos img{
+        width: 90%;
+    }
+    p.leyenda-semana-nobel{
+        font-size: 1.2rem;
+        padding: 0 20px 0;
     }
     
 }
