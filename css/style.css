@@ -1160,6 +1160,11 @@ h5.sub-nobel{
                 margin: 0 20px 20px;
                 width: 45%;
             }
+            .bg-discurso{
+                padding-top: 23px;
+                vertical-align: top;                
+                width: 33% !important;
+            }
         p.leyenda-semana-nobel{
             font: 1rem / 1.4 'Founders Grotesk light';
             margin: 5px auto 40px;
@@ -2224,6 +2229,10 @@ ul.decadas{
     }
     .box-fotos img{
         width: 90%;
+    }
+    .bg-discurso{    
+        padding-top: 0;           
+        width: 90% !important;
     }
     p.leyenda-semana-nobel{
         font-size: 1.2rem;
