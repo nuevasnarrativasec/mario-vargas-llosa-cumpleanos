@@ -1173,6 +1173,9 @@ h5.sub-nobel{
             text-align: left;
             vertical-align: top;
         }
+        .bg-premiacion-1{
+            max-width: 900px;
+        }
 
 ul.premios{
     margin: 10px auto 40px;
