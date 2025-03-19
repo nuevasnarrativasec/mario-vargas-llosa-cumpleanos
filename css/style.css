@@ -1890,6 +1890,9 @@ ul.decadas{
     }
         .box-portada h4{
             font-size: 2rem;
+            max-width: 100%;
+            text-align: center;
+            width: 100%;
         }
     .box-info-obra,
     .box-obra-derecha .box-info-obra{
@@ -1902,7 +1905,7 @@ ul.decadas{
         }
 
     .box-obra-derecha .box-info-obra   {
-        margin-top: 270px;
+        margin-top: 360px;
     }         
     .box-obra-derecha .box-portada{
         box-sizing: border-box;
@@ -1911,11 +1914,15 @@ ul.decadas{
         width: 100%;
     }
     .box-portada img{
-        max-width: 35%;
+        display: block;
+        margin: 20px auto !important;
+        max-width: 45%;
     }
     .box-separador h3,
     .box-main-galeria{
-        padding: 0 20px;
+        display: block;
+        margin: 20px auto;
+        max-width: 35%;  
     }
     .box-main-galeria .box-doble{
         margin: 30px 0 30px;
@@ -2189,6 +2196,9 @@ ul.decadas{
     .header-interior-capitulo-5.header-interior p{
         font-size: 1.55rem;
         max-width: 85% !important;
+    }
+    #info-obra-1 p {
+        max-width: 100%; 
     }
     
 }
