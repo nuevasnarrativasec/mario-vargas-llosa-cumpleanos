@@ -1174,6 +1174,7 @@ h5.sub-nobel{
             vertical-align: top;
         }
         .bg-premiacion-1{
+            margin-bottom: 30px;
             max-width: 900px;
         }
 
@@ -2240,6 +2241,9 @@ ul.decadas{
     p.leyenda-semana-nobel{
         font-size: 1.2rem;
         padding: 0 20px 0;
+    }
+    .box-main-galeria{
+        max-width: 95%;
     }
     
 }
