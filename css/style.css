@@ -1123,7 +1123,8 @@ h5.sub-nobel{
     }
         .bg-foto-nobel-2{
             display: inline-block;
-            max-width: 550px;
+            margin: 0 20px;
+            max-width: 450px;
             text-align: left;
             vertical-align: top;
         }
@@ -1146,6 +1147,28 @@ h5.sub-nobel{
                 text-align: left;
                 vertical-align: top;
             }
+    .box-fotos-semana-nobel{
+        text-align: center;
+    }  
+        .box-fotos{
+            display: inline-block;
+            max-width: 500px;
+            vertical-align: top;
+        }
+            .box-fotos img{
+                display: block;
+                margin-bottom: 20px;
+                width: 100%;
+            }
+        p.leyenda-semana-nobel{
+            display: inline-block;
+            font: 1rem / 1.4 'Founders Grotesk light';
+            margin: 5px auto;
+            max-width: 300px;
+            padding: 260px 10px 0;
+            text-align: left;
+            vertical-align: top;
+        }
 
 ul.premios{
     margin: 10px auto 40px;
