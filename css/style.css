@@ -616,7 +616,7 @@ body, html {
             max-width: 400px;
             text-align: center;
         }
-        .box-info-obra a {
+        .btn-box-info-obra{
             border: 1px solid #000;
             color: #000;
             display: block;
@@ -629,6 +629,15 @@ body, html {
             text-transform: uppercase;
             padding: 5px 10px;
             
+        }
+    #info-obra-1{
+        max-width: 550px;
+    }
+        #info-obra-1 p{
+            max-width: 45%;
+        }
+        #info-obra-1 h6{
+            max-width: 420px;
         }
     .box-obra-derecha{
         position: relative;
