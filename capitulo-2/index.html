@@ -63,6 +63,8 @@
         <span class="separador-autor"></span>
     </div>
 
+    <img src="../img/flecha-subir.png" alt="" width="100%" class="flecha-subir">
+
     <div class="box-resumen" id="resumen-1" style="display: none;">
         <div class="ctn-box-resumen">
             <div class="btn-cerrar">X</div>
@@ -752,6 +754,9 @@
         </ul>
     </div>       
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+    <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/el-metro-interminable-ecpm/js/ScrollMagic.min.js"></script>
+
     <script>
         document.querySelectorAll(".btn-box-info-obra").forEach(btn => {
             btn.addEventListener("click", function() {
@@ -767,6 +772,31 @@
         });
     </script>
 
+    <!-- lapiz timeline -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var controller = new ScrollMagic.Controller();
 
+            var scene = new ScrollMagic.Scene({
+                triggerElement: ".box-main-autor",
+                triggerHook: 0.5, 
+                reverse: true 
+            })
+            .setClassToggle(".flecha-subir", "show") 
+            .addTo(controller);
+        });
+    </script>
+
+    <!-- flecha subir -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector(".flecha-subir").addEventListener("click", function () {
+                const targetElement = document.querySelector(".box-main-autor");
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: "smooth" });
+                }
+            });
+        });
+    </script>
 </body>
 </html>

@@ -77,6 +77,8 @@
         </li>
     </ul>
 
+    <img src="../img/flecha-subir.png" alt="" width="100%" class="flecha-subir">
+
     <div class="main-nota-1">
 
         <h5 class="sub-nobel">Lo que significa un Nobel</h5>
@@ -347,6 +349,9 @@
             </li>
         </ul>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+    <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/el-metro-interminable-ecpm/js/ScrollMagic.min.js"></script>
     
     <!-- botones notas -->
     <script>
@@ -374,6 +379,33 @@
             });
         });
 
+    </script>
+
+    <!-- lapiz timeline -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var controller = new ScrollMagic.Controller();
+
+            var scene = new ScrollMagic.Scene({
+                triggerElement: ".notas-nobel",
+                triggerHook: 0.5, 
+                reverse: true 
+            })
+            .setClassToggle(".flecha-subir", "show") 
+            .addTo(controller);
+        });
+    </script>
+
+    <!-- flecha subir -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector(".flecha-subir").addEventListener("click", function () {
+                const targetElement = document.querySelector(".box-main-autor");
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: "smooth" });
+                }
+            });
+        });
     </script>
 
 </body>
