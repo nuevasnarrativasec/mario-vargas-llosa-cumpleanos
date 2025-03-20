@@ -47,6 +47,7 @@
     </div>
 
     <div class="box-main-pdt">
+        <img src="../img/flecha-subir.png" alt="" width="100%" class="flecha-subir">
         <div class="bg-pdt-1"></div>       
 
         <!--<h4>¿Quieres conocer las columnas de MVLL como nunca antes?</h4>-->
@@ -257,6 +258,9 @@
     </div>
     -->
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
+    <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/el-metro-interminable-ecpm/js/ScrollMagic.min.js"></script>
     <script>        
         document.querySelector('.inicio').addEventListener('click', function() {            
             document.getElementById('menu').classList.remove('height');
@@ -267,6 +271,33 @@
             if (mainIndicacion) {
                 mainIndicacion.style.display = 'none';
             }
+        });
+    </script>
+
+    <!-- lapiz timeline -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var controller = new ScrollMagic.Controller();
+
+            var scene = new ScrollMagic.Scene({
+                triggerElement: ".box-main-pdt",
+                triggerHook: 0.5, 
+                reverse: true 
+            })
+            .setClassToggle(".flecha-subir", "show") 
+            .addTo(controller);
+        });
+    </script>
+
+    <!-- flecha subir -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector(".flecha-subir").addEventListener("click", function () {
+                const targetElement = document.querySelector(".header-interior");
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: "smooth" });
+                }
+            });
         });
     </script>
 
