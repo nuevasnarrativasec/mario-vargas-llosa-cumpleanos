@@ -139,7 +139,7 @@ body, html {
         }
         .box-titulo{
             display: inline-block;
-            margin-left: -65px;
+            margin-left: -50px;
             max-width: 300px;  
             padding-top: 115px;
             text-align: left;
@@ -205,16 +205,16 @@ body, html {
                         padding: 5px 10px;
                     }
                     ul.menu li:nth-child(3) p span{
-                        background-color: #98612B;
+                        background-color: #000;
                     }
                     ul.menu li:nth-child(4) p span{
-                        background-color: #C79423;
+                        background-color: #98612B;
                     }
                     ul.menu li:nth-child(5) p span{
-                        background-color: #98832B;
+                        background-color: #C79423;
                     }
                     ul.menu li:nth-child(6) p span{
-                        background-color: #613472;
+                        background-color: #98832B;
                     }   
                         ul.menu li:nth-child(6) p img{
                             display: inline-block;
@@ -222,8 +222,11 @@ body, html {
                             max-width: 80px;
                         }                                           
                     ul.menu li:nth-child(7) p span{
+                        background-color: #613472;
+                    }    
+                    ul.menu li:nth-child(8) p span{
                         background-color: #000;
-                    }                                                 
+                    }                                               
                     ul.menu li p a{
                         color: #000;
                         text-decoration: none;

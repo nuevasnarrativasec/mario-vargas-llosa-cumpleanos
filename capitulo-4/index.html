@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Para que Google no indexe esto-->
+    <meta name="googlebot" content="noindex" />
+    <meta name="googlebot-news" content="nosnippet" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!---->  
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MVLL</title>
 
-    <link rel="stylesheet" href="../css/style.css?6">
+    <link rel="stylesheet" href="../css/style.css?v4">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
-    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
  
 </head>
 <body id="capitulo">
@@ -27,1469 +27,227 @@
                 Inicio
             </a>            
         </div>
-        <div class="menu-button capitulo anterior last">
+        <div class="menu-button capitulo anterior">
             <a href="../capitulo-3/index.html">
                 <img src="../img/flecha-izq.png" alt="" width="100%">
                 <p>
                     Capítulo anterior
-                </p>               
+                </p>                
             </a>  
         </div>
         <div class="menu-button capitulo siguiente">
-            <a href="../capitulo-5/index.html">     
+            <a href="../capitulo-5/index.html">  
                 <p>
                     Capítulo siguiente
-                </p>  
+                </p> 
                 <img src="../img/flecha-der.png" alt="" width="100%">
             </a>
         </div>
     </nav>
 
-    <div class="header-interior header-interior-capitulo-9">
+    <div class="header-interior header-interior-capitulo-4">
         <h5>Capítulo 4</h5>
-        <img src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/ecdata/img/logo-ecdata.png" alt="ECData" width="100%" class="logo-ecdata">
-        <h1>en cada esquina de sus letras:</h1>
-        <h3>LAS CIFRAS Y LUGARES DE SU UNIVERSO LITERARIO DE MARIO VARGAS LLOSA</h3>    
-    </div>    
+        <h1>10 personajes entrañables</h1>
+        <p class="interior-capitular">
+            ¿Qué define a un personaje de Mario Vargas Llosa? ¿Es su actitud frente al mundo? ¿Su manera de hablar? ¿El humor con el que están escritos? Tal vez todo eso en justa medida. Desde el lanzamiento de su primera novela, describir a un personaje como ‘vargasllosiano’ es dotarlo de un aura que lo distingue de los demás. Incluso si un personaje no ha sido escrito por Vargas Llosa, puede ser considerado ‘vargasllosiano’. Imitadores no le han faltado en tantas décadas.
+        </p>  
+        <span class="separador"></span>      
+        <p>
+            "Lo característico de una novela es que al final el escritor no puede discernir entre aquello que procede exclusivamente de la imaginación y lo que [viene de la] memoria. Y eso es porque en el proceso de escribir ambas cosas se van fundiendo hasta formar algo completamente distinto", contó el escritor a el Comercio en 1987. Porque incluso gente real se convirtió en sus personajes; el escritor tomó momentos de sus vidas y los noveló, sea gente que conoció en persona o a sujetos históricos. Esta lista tiene un poco de ambas cosas.
+        </p>
+    </div>
 
-    <p class="bajada-cronologia">
-        Explora las cifras de la creación literaria del inmortal escritor y recorre, de manera interactiva, cada rincón del mundo que habitan las historias de sus novelas más célebres.
-    </p> 
+    <div class="box-main-autor">
+        <span class="separador-autor"></span>
+        <div class="box-autor">
+            <img src="../img/bg-autor-alfonso.png" alt="" width="100%">
+            <div class="info-autor">
+                <h5>Alfonso Rivadeneyra</h5>
+                <h6>Redactor de Luces</h6>
+            </div>
+        </div>
+        <span class="separador-autor"></span>
+    </div>
 
-    <ul class="premios">
-        <li>
-            <img src="../img/premio-01.png" alt="" width="100%">
-            <h5>
-                83
-                <span>Premios*</span>
-            </h5>
-        </li>
-        <div class="separador-premios"></div>
-        <li>
-            <img src="../img/premio-02.png" alt="" width="100%">
-            <h5>
-                71
-                <span>Distinciones honoris causa</span>
-            </h5>
-        </li>
-        <div class="separador-premios"></div>
-        <li>
-            <img src="../img/premio-03.png" alt="" width="100%">
-            <h5>
-                51
-                <span>Obras publicadas*</span>
-            </h5>
-        </li>
-        <div class="separador-premios"></div>
-        <li>
-            <img src="../img/premio-04.png" alt="" width="100%">
-            <h5>
-                30
-                <span>Idiomas en los que se han traducido sus libros</span>
-            </h5>
-        </li>
-        <div class="separador-premios"></div>
-        <li>
-            <img src="../img/premio-05.png" alt="" width="100%">
-            <h5>
-                15
-                <span>Obras llevadas al cine, tv y teatro</span>
-            </h5>
-        </li>
-    </ul>
+    <img src="../img/flecha-subir.png" alt="" width="100%" class="flecha-subir">
 
-    <p class="descripcion-premios">
-        *No incluye menciones honoríficas, puestos finalistas o segundos lugares
-    </p>
-    <p class="descripcion-premios">
-        **Se contabilizan solo los siguientes formatos: 20 novelas, 6 cuentos, 14 ensayos, 1 libro de memorias y 10 obras teatrales.
-    </p>
+   <div class="box-main-personajes">
 
-    <p class="texto-premios">
-        Los relatos de Vargas Llosa se desarrollan en distintos rincones del mundo. En sus obras principales se mencionan diez países y 25 ciudades. El país más recurrente es República Dominicana (113 menciones). Para el conteo, se utilizó una metodología que combina IA y NPL, que analizó los libros más aclamados por la crítica: La Fiesta del Chivo, La Ciudad y los Perros, La Casa Verde, Conversación en la Catedral y La Guerra del Fin del Mundo. Explora en este mapa los lugares que han dado vida a las historias del inmortal novelista.
-    </p>
-
-    <div class="box-iframe">
-        <h4>El mundo de Vargas Llosa</h4>
-        <p>Los distritos, ciudades y países en los que transcurrieron las historias de sus novelas más célebres, según la crítica.</p>
+        <div class="box-personaje" id="personaje-1">
+            <img src="../img/bg-personaje-1-1.jpg" alt="" width="100%">
+            <div class="box-texto-personaje">
+                <h6>“Creen que soy un soplón ―dijo el Jaguar ―. ¿Ve usted lo que le digo? Ni siquiera trataron de averiguar la verdad, nada, apenas les abrieron los roperos, los malagradecidos me dieron la espalda”.</h6>
+                <h5>
+                    El Jaguar
+                    <span>(“La ciudad y los perros”, 1963)</span>
+                </h5>
+                <p>
+                    Ya avanzada la novela es cuando se descubre que uno de los personajes principales, quien hasta ese momento no había sido identificado, era el Jaguar. El más bravo de los bravos del Colegio Militar Leoncio Prado había sido sistemáticamente humanizado, pero recién después el lector hace la conexión entre el ladronzuelo y el simulacro de justiciero, que es al mismo tiempo un bully. Protagonista del diálogo más complejo de la novela, un duelo verbal con el teniente Gamboa que pasará a la historia de las letras en español.
+                </p>
+            </div>
+        </div>
         
-        <div id="map"></div>
+        <div class="separador-personaje"></div>
 
-        <!--<iframe title="" aria-label="Mapa" id="datawrapper-chart-Xbzp9" src="https://datawrapper.dwcdn.net/Xbzp9/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="294" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-        </script>-->
-    </div>
-
-    
-    <h5 class="sub-metodologia-mapa">metodología</h5>
-    <p class="texto-premios texto-metodologia-mapa">
-        Para el conteo de menciones, se extrajeron nombres de ciudades y países de novelas en PDF mediante conversión de texto, limpieza y análisis con modelos de reconocimiento de entidades como spaCy o IA generativa (GPT Plus). Se validaron los resultados con bases de datos geográficas y se analizaron las menciones para identificar su contexto y frecuencia.
-    </p>
-
-    <span class="separador-seccion"></span>
-    <h4 class="seccion">obras y recomendaciones</h4>
-    <span class="separador-seccion"></span>
-    
-
-    <span class="selecciona">
-        Selecciona una década
-    </span>
-
-    <ul class="decadas">
-        <li id="btn-decada-1">
-            1950 - 1960
-        </li>
-        <li id="btn-decada-2">
-            1960 - 1970
-        </li>
-        <li id="btn-decada-3">
-            1970 - 1980
-        </li>
-        <li id="btn-decada-4">
-            1980 - 1990
-        </li>
-        <li id="btn-decada-5">
-            1990 - 2000
-        </li>
-        <li id="btn-decada-6">
-            2000 - 2010
-        </li>
-        <li id="btn-decada-7">
-            2010 - 2020
-        </li>
-        <li id="btn-decada-8">
-            2020 - 2023
-        </li>
-    </ul>
-
-    <p class="sumilla">
-        Revisa las obras literarias que marcaron cada década, así como los premios y reconocimientos obtenidos a lo largo del tiempo.
-    </p>
-
-    <div class="box-timeline">
-
-        <img src="../img/flecha-subir.png" alt="" width="100%" class="flecha-subir">
-
-        <h4 id="decada-1">
-            1950 - 1960
-        </h4>
-
-        <div class="box-titulo-secciones">
-            <h6>Obra literaria</h6>
-            <h6>Premios y reconocimientos</h6>
+        <div class="box-personaje" id="personaje-2">            
+            <div class="box-texto-personaje">                
+                <h5>
+                    Zavalita
+                    <span>(“Conversación en La Catedral”, 1969)</span>
+                </h5>
+                <p>
+                    Con esa frase arranca la tercera novela de Mario Vargas Llosa. Santiago Zavala ‘Zavalita’, es un periodista como tantos en una ciudad hostil en un país de marras, donde él mismo se pregunta en qué momento se jodió su vida. El autor responde por medio de una travesía de altibajos donde el personaje, teniendo oportunidades para ser un “ganador”, vive lejos de cualquier logro, en la intrascendencia. La explicación está en una novela de 700 páginas, triste tesis sobre cómo un hombre se hunde por su propia mano.
+                </p>
+            </div>
+            <div class="box-ilustracion-personaje">
+                <img src="../img/bg-personaje-2-1.jpg" alt="" width="100%">
+                <h6>“Desde la puerta de La Crónica Santiago mira la avenida Tacna, sin amor: automóviles, edificios desiguales y descoloridos, esqueletos de avisos luminosos flotando en la neblina, el mediodía gris. ¿En qué momento se había jodido el Perú?”.</h6>
+            </div>           
         </div>
 
-        <div class="box-columna-izq">
-            <div class="box-item-timeline margin-bottom-112">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1952.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1952</h4>
-                    <h5>Obra teatral</h5>
-                    <h6>La huida del Inca</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1959</h4>
-                    <h5>Cuento/Relato</h5>
-                    <h6>Los jefes</h6>
-                </div>
-            </div>
+        <div class="separador-personaje"></div>
+
+        <div class="box-personaje" id="personaje-3">   
+            <img src="../img/bg-personaje-3-1.jpg" alt="" width="100%">         
+            <div class="box-texto-personaje">                
+                <h5>
+                    Antonio Conselheiro
+                    <span>(“La guerra del fin del mundo”, 1981)</span>
+                </h5>
+                <p>
+                    De todos los personajes memorables que aparecen en “La guerra del fin del mundo”, el santo de los sertones es uno de los que más honda caracterización recibió por el escritor. Con la mente enfocada en una sola cosa, dirigió a una cantidad inmensa de desposeídos que, olvidados por el incipiente estado brasileño en el siglo XIX, se dejan arrastrar a lo que creen que será su tierra prometida. Conselheiro marca también el inicio de Vargas Llosa en la novela histórica, donde toma gente que existió y las inmortaliza con la ficción.
+                </p>
+                <h6>
+                    “El Hombre era alto y tan flaco que parecía siempre de perfil. Su piel era oscura, sus huesos prominentes y sus ojos ardían con fuego perpetuo.”
+                </h6>
+            </div>         
         </div>
 
-        <div class="box-columna-der">
-            <div class="box-texto-obra">
-                <h4>1952</h4>
-                <h5>(Segundo lugar)</h5>
-                <h6>Segundo premio del III Concurso de Teatro Escolar y Radioteatro Infantil del Ministerio de Educación Pública por su obra de teatro no publicada La huida del Inca</h6>
-            </div>
+        <div class="separador-personaje"></div>
 
-            <div class="box-texto-obra">
-                <h4>1957</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio de la Revue Française por su relato El desafío</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1959</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Leopoldo Alas por su colección de cuentos Los jefes (España)</h6>
-            </div>
+        <div class="box-personaje" id="personaje-4">   
+            <img src="../img/bg-personaje-4-1.jpg" alt="" width="100%">         
+            <div class="box-texto-personaje">                
+                <h5>
+                    Elvira
+                    <span>(“La Señorita de Tacna”, 1981)</span>
+                </h5>
+                <p>
+                    Para unos pocos es Elvira; para la mayoría, Mamaé, una mujer a la que la vejez ha convertido en una sombra plagada de todos los males imaginables, pero que en su juventud fue dueña de una fuerza de temer, decidida a no casarse en una sociedad donde la mujer solo era valiosa para parir y mantener una casa. Protagonista de una obra de teatro que es en parte un ejercicio sobre cómo se crean las ficciones, en parte un retrato de la época, es también el rostro de las personas que hacen trabajo impago para criar hijos ajenos y que, aún al día de hoy, no son lo suficientemente reconocidas.
+                </p>
+                <h6>“¡Caramba, Mamaé, ya te hiciste pipí otra vez en la sala! ¿Por qué no pides, para llevarte al baño? Cuántas veces se te ha dicho. ¿Crees que no me da asco?”</h6>
+            </div>         
         </div>
 
-        <div class="clear"></div>
+        <div class="separador-personaje separador-vertical"></div>
 
-        <h4 id="decada-2">
-            1960 - 1970
-        </h4>
-
-        <div class="box-titulo-secciones">
-            <h6>Obra literaria</h6>
-            <h6>Premios y reconocimientos</h6>
+        <div class="box-personaje" id="personaje-5">   
+            <img src="../img/bg-personaje-5.jpg" alt="" width="100%">         
+            <div class="box-texto-personaje">                
+                <h5>
+                    Pantaleón Pantoja 
+                    <span>(“Pantaleón y las visitadoras”, 1973)</span>
+                </h5>
+                <p>
+                    Y esas tres últimas palabras son las que caracterizan a Pantaleón Pantoja, obediente milico comisionado a un trabajo imposible: establecer un servicio de prostitución para beneficio de la soldadesca en la selva que ha demostrado, en repetidas ocasiones, conductas violadoras. Por medio de diálogos e informes militares, Vargas Llosa crea a un Pantoja que se toma en serio su trabajo hasta el mínimo detalle, en páginas cargadas de un humor inusual para su obra hasta ese momento. Un personaje recto que, progresivamente, se rinde a la dictadura de su entrepierna.
+                </p>
+                <h6>“El suscrito sabe bien, desde sus inolvidables tiempos de cadete, que no hay misión que no ofrezca dificultades y que no hay dificultad que no pueda ser vencida con energía, voluntad y trabajo”.</h6>
+            </div>         
         </div>
 
-        <div class="box-columna-izq">
-            <div class="box-item-timeline margin-top-159">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1963.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1963</h4>
-                    <h5>Novela</h5>
-                    <h6>La Ciudad y los Perros</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline margin-top-93">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1966.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1966</h4>
-                    <h5>Novela</h5>
-                    <h6 style="margin-bottom: 30px;">La Casa Verde</h6>
+        <div class="separador-personaje"></div>
 
-                    <h5>Obra teatral</h5>
-                    <h6>Conversación en la Catedral</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-105">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1967.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1967</h4>
-                    <h5>Cuento/ Relato</h5>
-                    <h6>Los Cachorros</h6>
-                </div>
+        <div class="box-personaje" id="personaje-6">
+            <img src="../img/bg-personaje-6.jpg" alt="" width="100%">
+            <div class="box-texto-personaje">
+                <h6>“Allá en el norte, en Piura y Talara, Lituma nunca creyó en brujas ni brujerías, pero aquí, en la sierra, ya no estaba tan seguro”.</h6>
+                <h5>
+                    Lituma
+                    <span>(“¿Quién mató a Palomino Molero?”, 1986; “Lituma en los andes”, 1993; y más)</span>
+                </h5>
+                <p>
+                    Presente en múltiples obras del Nobel, el sargento de la Guardia Civil Lituma es un criollo de aquellos al que, como buen protagonista, siempre le pasan cosas. O al menos conoce a gente a la que le pasan cosas. Es por medio de su mirada (es muy buen observador) que el espectador conoce detalles clave de las novelas. Siempre con un comentario gracioso en la punta de la lengua, Lituma vive al borde del abismo. Si no se cae, es por terco; y si cae, ya se levantará solo. Y el círculo así continúa.
+                </p>
             </div>
         </div>
+        
+        <div class="separador-personaje"></div>
 
-        <div class="box-columna-der">
-            <div class="box-texto-obra">
-                <h4>1962</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Biblioteca Breve, de Seix Barral, por su primera novela La ciudad y los perros (España)</h6>
+        <div class="box-personaje" id="personaje-7">            
+            <div class="box-texto-personaje">                
+                <h5>
+                    Flora Tristán
+                    <span>(“El paraíso en la otra esquina”, 2003)</span>
+                </h5>
+                <p>
+                    Una mujer comprometida con los oprimidos de la sociedad es lo que presenta Vargas Llosa con su versión de Flora Tristán, nacida de una profunda investigación (algo que sería una constante en su producción tardía) sobre la luchadora social, así como la vida en Francia en el siglo XIX. La narración del libro actúa como una especie de conciencia del personaje, quien reflexiona sobre aspectos clave de la experiencia femenina (la maternidad, el trabajo no remunerado, el abuso por parte del hombre) en un mundo que no tiene intenciones de escucharla.
+                </p>
             </div>
-
-            <div class="box-texto-obra">
-                <h4>1963</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio de la Crítica de España por La ciudad y los perros</h6>
-
-                <h5>Segundo lugar</h5>
-                <h6>Segundo puesto del Premio Formentor por La ciudad y los perros (España)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1966</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio de la Crítica de España por su segunda novela La casa verde</h6>
-            </div>
-
-            <div class="box-texto-obra margin-top-171">
-                <h4>1967</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Nacional de Novela (Perú), por La casa verde</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Rómulo Gallegos (Venezuela), por La casa verde</h6>
-            </div>
+            <div class="box-ilustracion-personaje">
+                <img src="../img/bg-personaje-7.jpg" alt="" width="100%">
+                <h6>
+                    “[Flora], tenías una noción muy clara de lo bueno y lo malo, sobre victimarios y víctimas, y sabías la receta para curar los vicios de la sociedad”.
+                </h6>
+            </div>           
         </div>
 
-        <div class="clear"></div>
-         
-        <h4 id="decada-3">
-            1970 - 1980
-        </h4>
+        <div class="separador-personaje"></div>
 
-        <div class="box-titulo-secciones">
-            <h6>Obra literaria</h6>
-            <h6>Premios y reconocimientos</h6>
+        <div class="box-personaje" id="personaje-8">   
+            <img src="../img/bg-personaje-8.jpg" alt="" width="100%">         
+            <div class="box-texto-personaje">                
+                <h5>
+                    La Tía Julia
+                    <span>(“La tía julia y el escribidor”, 1977)</span>
+                </h5>
+                <p>
+                    Dicen que en las historias de amor, el protagonismo y antagonismo son características de la pareja central; ambos se turnan los roles. Y al menos en esta novela, la Tía Julia arranca como un ser antagónico, ganándose la antipatía de Mario, ya después ambos sucumben al placer. Que protagonista y escritor compartan nombre no es casual, al igual que tía, basada en la primera esposa del novelista, Julia Urquidi (su tía real). En una sociedad donde se confunde el silencio femenino con la buena educación, ella dice lo que piensa, con humor y desparpajo.
+                </p>
+                <h6>
+                    “[Ella] me aconsejó, con una perversidad que no descubría si era deliberada o inocente pero que igual me llegó al alma, que apenas pudiera me dejara crecer el bigote. A los morenos les sentaba y eso me facilitaría las cosas con las chicas”.
+                </h6>
+            </div>         
         </div>
 
-        <div class="box-columna-izq">
-            <div class="box-item-timeline">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1971.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1971</h4>
-                    <h5>Ensayo</h5>
-                    <h6>García Márquez: Historia de un deicidio</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1973.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1973</h4>
-                    <h5>Novela</h5>
-                    <h6>Pantaleón y las Visitadoras</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1975.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1975</h4>
-                    <h5>Ensayo</h5>
-                    <h6>La Orgía Perpetua; Flaubert y Madame Bovary</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-260 padding-top-190">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1977.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1977</h4>
-                    <h5>Novela</h5>
-                    <h6>La Tía Julia y el Escribidor</h6>
-                </div>
-            </div>
+        <div class="separador-personaje"></div>
+
+        <div class="box-personaje" id="personaje-9">   
+            <img src="../img/bg-personaje-9.jpg" alt="" width="100%">         
+            <div class="box-texto-personaje">                
+                <h5>
+                    El Chivo
+                    <span>
+                        (“La fiesta del Chivo”, 2000)
+                    </span>
+                </h5>
+                <p>
+                    ¿Cómo escribir sobre un sátrapa, una persona con el poder y la voluntad de poner a un país de rodillas? La respuesta está en Rafael Leónidas Trujillo, alias ‘El Chivo’, dictador de República Dominicana que el Nobel convirtió en un personaje literario de escasa paciencia y mucho menor autocontrol, que mataba por puro capricho a opositores políticos o a gente común que, simplemente, le causaba antipatía. Un tipo con campo gravitatorio propio, que medía su valor como hombre por el kilometraje sexual, a cuyo alrededor prosperaron otros granujas. Un retrato del poder al desnudo.
+                </p>
+                <h6>“Trujillo podía hacer que el agua se volviera vino y los panes se multiplicaran, si le daba en los cojones”.</h6>
+            </div>         
         </div>
 
-        <div class="box-columna-der">
-            <div class="box-texto-obra padding-top-620">
-                <h4>1976</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Título de Miembro Honorario de la Universidad Hebrea de Jerusalén (Israel)</h6>
+        <div class="separador-personaje separador-vertical"></div>
 
-                <h5>Distinción/Membresía</h5>
-                <h6>Presidente del PEN Club Internacional, cargo que desempeñaría hasta 1979 (Reino Unido)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1977</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Derechos Humanos 1977, otorgado por la Asociación Judío latinoamericana</h6>
-
-                <h5>Segundo lugar</h5>
-                <h6>Medalla de Plata y Diploma de Honor del Concejo Provincial de Lima</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1979</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio de periodismo Ramón Godó Lallana, otorgado por el diario catalán La Vanguardia (Barcelona, España)</h6>
-            </div>
+        <div class="box-personaje" id="personaje-10">   
+            <img src="../img/bg-personaje-10.jpg" alt="" width="100%">         
+            <div class="box-texto-personaje">                
+                <h5>
+                    Mario Vargas Llosa
+                    <span>
+                        (“El pez en el agua”, 1993)
+                    </span>
+                </h5>
+                <p>
+                    ¿Dónde acaba el personaje y dónde empieza la persona? Esa es una pregunta que los biógrafos de Mario Vargas Llosa se harán en los próximos años. Lo que es indiscutible es que para formularla tendrán que considerar lo dicho por el autor en “El pez en el agua”, autobiografía que muestra un vistazo íntimo al escritor, desde su infancia hasta su candidatura a la Presidencia de la República. Todo escritor elige lo que quiere contar para crear un personaje, y cuando habla de sí mismo en primera persona la situación no es distinta. El Vargas Llosa del libro tiene mucho en común con la persona real, pero solo hasta donde él mismo lo permite. Un reflejo borroso, pero no por ello menos vívido.
+                </p>
+                <h6>
+                    “Y, cuando, sobreexcitado con su propia rabia, se lanzaba a veces contra mi madre, a golpearla, yo quería morirme de verdad, porque incluso la muerte me parecía preferible al miedo que sentía.”
+                </h6>
+            </div>         
         </div>
 
-        <h4 id="decada-4">
-            1980 - 1990
-        </h4>
-
-        <div class="box-titulo-secciones">
-            <h6>Obra literaria</h6>
-            <h6>Premios y reconocimientos</h6>
-        </div>
-
-        <div class="box-columna-izq">
-            <div class="box-item-timeline padding-bottom-250">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1981.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1981</h4>
-                    <h5>Ensayo</h5>
-                    <h6 style="margin-bottom: 30px;">La Guerra del Fin del Mundo</h6>
-
-                    <h5>Obra teatral</h5>
-                    <h6>La Señorita de Tacna</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1983.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1983</h4>
-                    <h5>Obra teatral</h5>
-                    <h6>Kathie y el Hipopótamo</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1984.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1984</h4>
-                    <h5>Novela</h5>
-                    <h6>Historia de Mayta</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-top-190 padding-bottom-100 padding-top-190-2">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1986.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1986</h4>
-                    <h5>Novela</h5>
-                    <h6 style="margin-bottom: 30px;">¿Quién Mató a Palomino Molero?</h6>
-
-                    <h5>Obra teatral</h5>
-                    <h6>La Chunga</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-82">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1987.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1987</h4>
-                    <h5>Novela</h5>
-                    <h6>El hablador</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-355">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1988.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1988</h4>
-                    <h5>Novela</h5>
-                    <h6>Elogio de la Madrastra</h6>
-                </div>
-            </div>
-        </div>
-
-        <div class="box-columna-der">
-            <div class="box-texto-obra">
-                <h4>1981</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio de la Crítica (Argentina)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Medalla de Honor del Congreso, otorgada por el Congreso de la República del Perú, en mérito a su carrera literaria</h6>
-            </div>
-
-            <div class="box-texto-obra padding-bottom-365">
-                <h4>1982</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Pablo Iglesias de Literatura de la Agrupación Socialista de Chamartín por La guerra del fin del mundo</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Illa del Instituto Italo - Latino Americano de Roma por La tía Julia y el escribidor (Italia)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1985</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Ritz París Hemingway (Francia) por La guerra del fin del mundo</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Condecoración de la Legión de Honor, otorgada por el Gobierno de Francia</h6>
-            </div>
-
-            <div class="box-texto-obra padding-bottom-295">
-                <h4>1986</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Príncipe de Asturias de las Letras (España)</h6>
-
-                <h5>Finalista</h5>
-                <h6>Finalista Premio Grinzane Cavour en Narrativa Extranjera (Italia), por Historia de Mayta</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1988</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Medalla de Oro de la Pan American Society de Americas Society (Estados Unidos)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Oficial de la Orden de las Artes y las Letras de Francia</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio de la Libertad, otorgado por la Fundación Max Schmidheiny (Suiza)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1989</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Scanno, otorgado por Rizzoli Libri (Italia), por su novela El hablador</h6>
-            </div>
-        </div>
-
-
-        <h4 id="decada-5">
-            1990 - 2000
-        </h4>
-        <div class="box-titulo-secciones">
-            <h6>Obra literaria</h6>
-            <h6>Premios y reconocimientos</h6>
-        </div>
-
-        <div class="box-columna-izq">
-            <div class="box-item-timeline padding-bottom-105 padding-top-50">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1990.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1990</h4>
-                    <h5>Ensayo</h5>
-                    <h6>La Verdad de las Mentiras: Ensayos sobre la Novela Moderna</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-410">
-                <div class="box-portada-obra ">
-                    <img src="../img/bg-timeline-1991.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1991</h4>
-                    <h5>Ensayo</h5>
-                    <h6>Carta de Batalla por Tirant lo Blanc</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-1143">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1993.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1993</h4>
-                    <h5>Novela</h5>
-                    <h6 style="margin-bottom: 30px;">Lituma en los Andes</h6>
-
-                    <h5>Ensayo</h5>
-                    <h6 style="margin-bottom: 30px;">El Pez en el Agua</h6>
-
-                    <h5>Obra teatral</h5>
-                    <h6>El Loco de los Balcones</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-top-190 padding-bottom-190-2 padding-top-190-3">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1996.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1996</h4>
-                    <h5>Ensayo</h5>
-                    <h6 style="margin-bottom: 30px;">La Utopía Arcaica: José María Arguedas y las Ficciones del Indigenismo</h6>
-
-                    <h5>Obra teatral</h5>
-                    <h6>Ojos Bonitos, Cuadros Feos</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-1660">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-1997.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>1997</h4>
-                    <h5>Novela</h5>
-                    <h6 style="margin-bottom: 30px;">Los Cuadernos de Don Rigoberto</h6>
-
-                    <h5>Ensayo</h5>
-                    <h6>Cartas a un Joven Novelista</h6>
-                </div>
-            </div>
-        </div>
-
-        <div class="box-columna-der">
-            <div class="box-texto-obra">
-                <h4>1990</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa de la Universidad de Miami (Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Castiglione de Sicilia (Italia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Legión de la Libertad, del Instituto Cultural Ludwig von Mises (México)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1991</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor in Humane Letters de Connecticut College (Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Literario T.S. Eliot de Ingersoll Foundation de The Rockford Institute (Estados Unidos)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1992</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa de la Universidad de Boston (Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">INTAR Golden Palm Award de INTAR Hispanic American Arts Center de Nueva York (Estados Unidos)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa de la Universidad de Génova (Italia)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1993</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa de Dowling College (Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Planeta (España), por Lituma en los Andes</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Comendador de la Orden de las Artes y las Letras de Francia</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa de la Universidad Francisco Marroquín (Guatemala)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1994</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa de la Universidad de Georgetown (Estados Unidos)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa en Literatura de la Universidad de Yale (Estados Unidos)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Miembro de la Real Academia Española, donde ocupa el Sillón L (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Premio Miguel de Cervantes (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Literario Arzobispo Juan de San Clemente de Santiago de Compostela, por Lituma en los Andes (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Doctor honoris causa de la Universidad de Rennes 2 Alta Bretaña (Francia)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1995</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Huésped de Honor de la Provincia de Santa Fe (Argentina)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa de la Universidad de Murcia (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa de la Universidad de Valladolid (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Jerusalén (Israel)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Literario Internacional Chianti Ruffino Antico Fattore (Florencia, Italia), por Lituma en los Andes</h6>
-            </div>
-
-            <div class="box-texto-obra padding-bottom-220">
-                <h4>1996</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio de la Paz del Comercio Librero Alemán, otorgado por la Feria del Libro de Fráncfort, Alemania</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1997</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Visitante Ilustre de la ciudad de Buenos Aires, Argentina</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Mariano de Cavia, otorgado por el diario ABC (España), por su artículo “Los inmigrantes” publicado en El País en agosto de 1996</h6>
-                
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Pluma de Oro, otorgada por el Club de la Escritura (Madrid, España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Lima (Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Nacional de San Agustín de (Arequipa, Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla y Diploma de Honor de la Universidad Católica de Santa María de (Arequipa, Perú)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1998</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Huésped de Honor de la ciudad de Córdoba (Argentina)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">National Book Critics Circle Award Categoría “Crítica” (Estados Unidos), por su libro Making Waves</h6>
-                
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Ben Gurión, Beer-Sheva (Israel)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Ciudadano Honorífico de la ciudad de Asunción, Paraguay</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por el University College de Londres (Gran Bretaña)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>1999</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Jorge Isaacs 1999 del Festival Internacional de Arte de Cali (Colombia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Harvard (Estados Unidos)</h6>
-                
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla de la Universidad de California, Los Angeles UCLA (Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Ortega y Gasset de Periodismo 1999 por su artículo “Nuevas inquisiciones”, publicado en El País el 8 de noviembre de 1998 (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">XIII Premio Internacional Menéndez Pelayo (España)</h6>
-            </div>
-        </div>
-
-        <h4 id="decada-6">
-            2000 - 2010
-        </h4>
-        <div class="box-titulo-secciones">
-            <h6>Obra literaria</h6>
-            <h6>Premios y reconocimientos</h6>
-        </div>
-
-        <div class="box-columna-izq">
-            <div class="box-item-timeline padding-bottom-425">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2000.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2000</h4>
-                    <h5>Novela</h5>
-                    <h6>La Fiesta del Chivo</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-2127">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2001.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2001</h4>
-                    <h5>Ensayo</h5>
-                    <h6>Bases para una Interpretación de Rubén Darío; Tesis Universitaria</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-740">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2003.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2003</h4>
-                    <h5>Novela</h5>
-                    <h6>El Paraíso en la Otra Esquina</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-top-190 padding-bottom-2035 padding-bottom-2035-2">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2004.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2004</h4>
-                    <h5>Ensayo</h5>
-                    <h6>La Tentación de lo Imposible</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-328">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2006.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2006</h4>
-                    <h5>Novela</h5>
-                    <h6>Travesuras de la Niña Mala</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-284">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2007.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2007</h4>
-                    <h5>Obra teatral</h5>
-                    <h6>Odiseo y Penélope</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-672">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2008.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2008</h4>
-                    <h5>Ensayo</h5>
-                    <h6 style="margin-bottom: 30px;">El Viaje a la Ficción</h6>
-
-                    <h5>Obra teatral</h5>
-                    <h6>Al Pie del Támesis</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-623">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2009.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2009</h4>
-                    <h5>Obra teatral</h5>
-                    <h6>Las Mil Noches y una Noche</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-1505">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2010.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2010</h4>
-                    <h5>Novela</h5>
-                    <h6>El Sueño del Celta</h6>
-                </div>
-            </div>
-        </div>
-
-        <div class="box-columna-der">
-            <div class="box-texto-obra">
-                <h4>2000</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Lista de las 100 mejores novelas en español del siglo XX del diario «El Mundo» por La ciudad y los perros, Conversación en La Catedral y Lituma en los Andes (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Luis del Olmo de Radio Onda de Rambla de Catalunya (Barcelona), por la La Fiesta del Chivo</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Diploma de Honor de la Universidad Nacional Mayor de San Marcos, en homenaje y reconocimiento de su alma mater y por consenso nacional como “Prohombre del Siglo XX” (Lima, Perú)</h6>
-            
-                <h5>Distinción/Membresía</h5>
-                <h6>Medalla Patrimonio Cultural de la Humanidad, concedida por la Municipalidad de la Provincia de Arequipa (Perú)</h6>
-
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2001</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Las Américas 2000-2001, otorgado por la Fundación de las Américas (Nueva York, Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">I Premio Libro del Año del Gremio de Libreros de Madrid por La Fiesta del Chivo</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">IV Premio de Los Lectores de la cadena de librerías Crisol a su novela La Fiesta del Chivo</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio del Festival Son Latinos, IV Edición, Tenerife, Islas Canarias (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Pau y Pays de l’Adour (Francia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Roma Tor Vergata (Italia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Profesor Honorario de la Universidad Peruana de Ciencias Aplicadas (Lima, Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa de su alma mater, la Universidad Nacional Mayor de San Marcos (Lima, Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Gran Cruz con diamantes de la Orden El Sol del Perú (Perú)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Cristal del World Economic Forum, Davos (Suiza)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2002</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad La Trobe (Australia)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Nabokov, otorgado por el PEN American Center (Estados Unidos)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Skidmore College, Saratoga Springfields (Estados Unidos)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Presidente de la Fundación Biblioteca Virtual Miguel de Cervantes (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">II Premio Bartolomé March, por su libro de ensayo La verdad de las mentiras (Barcelona, España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Ateneo Americano, entregado por el presidente del Gobierno de España, José María Aznar, en el marco del X Aniversario de la Casa de América (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de la Polinesia Francesa (Francia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Nacional de San Antonio Abad del Cuzco (Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Nacional de Piura (Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Nacional Pedro Ruiz Gallo (Lambayeque, Perú)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Caonabo de Oro, otorgado por la Asociación Dominicana de Periodista y Escritores (República Dominicana)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2003</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por Lovaina Universidad Católica de Lovaina (Bélgica)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla Presidencial de la Universidad de Hofstra (New York, Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Roger Caillois, otorgado por el PEN Club Francés (París, Francia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Pedagógica Nacional Francisco Morazán (Honduras)</h6>
-                
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Literario Budapest (Hungría)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla de Honor, en el Grado de Gran Cruz, por el Congreso de la República del Perú</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Huésped Ilustre y Medalla de la Gran Orden de “Chan Chan” en el Grado de Embajador Cultural de La Libertad (La Libertad, Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Nacional de Ingeniería (Perú) (Lima, Perú)</h6>
-
-                <h5>Finalista</h5>
-                <h6 style="margin-bottom: 30px;">Nominado al Independet Foreign Fiction Prize (Reino Unido), junto a Edith Grossman, la traductora al inglés de La Fiesta del Chivo</h6>
-            
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa por la Universidad de Oxford (Reino Unido)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2004</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Konex MERCOSUR, otorgado por la Fundación Konex (Argentina)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla del Centenario de Pablo Neruda, concedida por el Gobierno de Chile</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">I Premio de Periodismo Taurino “Baltasar Ibán”, de la Fundación Wellington, por su artículo “La capa de Belmonte” (Madrid, España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio “Al protagonista de la Fiesta nacional 2004”, concedido por el Club Financiero Génova y Club Internacional de Negocios (Madrid, España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Su peso en miel de la Alcarria 2004, otorgado por el Municipio de Peñalver (Guadalajara, España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Grinzane Cavour, Premio Internacional “Una Vida para la Literatura” (Turín, Italia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Católica de Santa María (Arequipa, Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla de Honor de la Cultura Peruana, otorgada por el Instituto Nacional de Cultura del Perú</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa por la Universidad de Warwick (Reino Unido)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2005</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Humboldt de Berlín (Alemania)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Irving Kristol Award for 2005, otorgado por el American Enterprise Institute for Public Policy Research (Washington D. C., Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Trofeo Cossío 2004 de la Real Federación Taurina de España, por su defensa de las corridas de toros</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla Internacional de las Artes de la Comunidad Autónoma de Madrid (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">I Premio Fernando Lázaro Carreter, concedido por la Fundación Germán Sánchez Ruipérez (Madrid, España)</h6>
-            
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Bodeguero Mayor del Reino de Navarra, distinción concedida por el Consejo regulador Denominación de Origen Navarra (Pamplona, España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de la Sorbona (París, Francia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Autónoma de San Luis de Potosí (México)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Ricardo Palma (Lima, Perú)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Ovidio 2005 del Festival Internacional Días y Noches de Literatura, concedido por la Unión de Escritores de Rumania</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2006</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Maria Moors Cabot, entregado por la Universidad de Columbia (Estados Unidos)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Europea de Madrid (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Gran Cruz de la Orden de la Independencia Cultural Rubén Darío, concedida por el presidente de la República de Nicaragua, Enrique Bolaños Geyer (Nicaragua)</h6>
-            
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa por la Universidad de Puerto Rico en Arecibo (Puerto Rico)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2007</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de La Rioja (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Málaga (España)</h6>
-                
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">XIII Premio a la Tolerancia, concedido por la Asociación por la Tolerancia de Barcelona (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Honorary Fellow del King’s College de Londres (Reino Unido)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2008</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio a la Libertad de la Fundación Friedrich Naumann para la Libertad (Alemania)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Alicante (España)</h6>
-                
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Commandeur des Arts et des Lettres (comendador de las Artes y de las Letras) del Gobierno de Francia</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Mundial Cino Del Duca (Francia)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Isaiah Berlin, del Centro Internazionale di Studi Italiani de la Universidad de Génova (Italia)</h6>
-                
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio ANDA a la Excelencia en programa Cultural en Radio o Televisión al espacio radial ``Mi novela favorita´´ de RPP, con textos escogidos y presentados por MVLL (Lima, Perú)</h6>
-                
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Pontificia Universidad Católica del Perú (Lima, Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa por la Universidad Simón Bolívar (Venezuela)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2009</h4>
-                <h5>Finalista</h5>
-                <h6 style="margin-bottom: 30px;">Finalista del Premio Internacional Booker (Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio ABC Cultural & Ámbito Cultural, de manos de sus directores Fernando Rodríguez Lafuente y Ramón Pernas (España)</h6>
-                
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Internacional don Quijote de la Mancha, otorgado por el Gobierno de la región Castilla-La Mancha (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Granada (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">VII Premio Internacional de Ensayo Caballero Bonald, otorgado por El viaje a la ficción, ensayo sobre el escritor uruguayo Juan Carlos Onetti (España)</h6>
-            
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Burdeos (Francia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Inca Garcilaso de la Vega (Lima, Perú)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2010</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Referente de la Humanidad, otorgado por la Fundación Internacional de Jóvenes Líderes (Buenos Aires, Argentina)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Orden al Mérito Docente y Cultural Gabriela Mistral, condecorado por el presidente del Gobierno de Chile, Sebastián Pinera (Chile)</h6>
-                
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de la Ciudad de Nueva York (Estados Unidos)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Castilla-La Mancha, Campus Universitario de Albacete (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">III Premio Manuel Ramírez de artículos taurinos, otorgado por el diario ABC de Sevilla (España)</h6>
-            
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Internacional Literario Viareggio Versilia (Italia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Nacional Autónoma de México (México)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Internacional Alfonso Reyes (México)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Orden de las Artes y Las Letras, otorgada por el Gobierno del Perú y de manos del presidente Alan García (Perú).</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad San Ignacio de Loyola (Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Gran Cruz Placa de Plata de la Orden Heráldica de Cristóbal Colón, concedida por el presidente de la República Dominicana, Leonel Fernández, en el Palacio Nacional de Santo Domingo (República Dominicana)</h6>
-            
-                <div class="box-texto-obra box-nobel">
-                    <img src="../img/premio-nobel.png" alt="" width="100%">
-                    <div class="box-texto-nobel">
-                        <h5>Premio/Primer lugar</h5>
-                        <p>Premio Nobel de Literatura</p>
-                        <p>otorgado por la Academia Sueca (Estocolmo, Suecia)</p>
-                    </div>                
-                </div>      
-            </div>
-        </div>
-
-
-        <h4 id="decada-7">
-            2010 - 2020
-        </h4>
-        <div class="box-titulo-secciones">
-            <h6>Obra literaria</h6>
-            <h6>Premios y reconocimientos</h6>
-        </div>
-
-        <div class="box-columna-izq">
-            <div class="box-item-timeline padding-bottom-1435">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2010-2.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2010</h4>
-                    <h5>Cuento</h5>
-                    <h6>Fonchito y la Luna</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-505">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2012.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2012</h4>
-                    <h5>Ensayo</h5>
-                    <h6>La Civilización del Espectáculo</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-220">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2013.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2013</h4>
-                    <h5>Novela</h5>
-                    <h6>El Héroe Discreto</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-top-190 padding-bottom-1039 padding-bottom-1039-2 padding-bottom-1039-3">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2014.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2014</h4>
-                    <h5>Cuento infantil</h5>
-                    <h6>El Barco de los Niños</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-715">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2016.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2016</h4>
-                    <h5>Novela</h5>
-                    <h6>Cinco Esquinas</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2018.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2018</h4>
-                    <h5>Ensayo</h5>
-                    <h6>La Llamada de la Tribu</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2019.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2019</h4>
-                    <h5>Ensayo</h5>
-                    <h6 style="margin-bottom: 30px;">Tiempos Recios</h6>
-
-                    <h5>Cuento/ Relato</h5>
-                    <h6 style="margin-bottom: 30px;">El Hombre de Negro</h6>
-
-                    <h5>Cuento infantil</h5>
-                    <h6>Fonchito y la Luna</h6>
-                </div>
-            </div>            
-        </div>
-
-        <div class="box-columna-der">
-            <div class="box-texto-obra">
-                <h4>2010</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Andrés Bello (Chile)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Gran Premio Chapultepec, otorgado por la Sociedad Interamericana de Prensa (Estados Unidos)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Alexis de Tocqueville, junto a Robert Higgs y el expresidente polaco Lech Walessa, otorgado por el Independent Institute (Estados Unidos)</h6>
-            
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">I Marqués de Vargas Llosa (España). El marquesado de Vargas Llosa es un título nobiliario hereditario español creado por S.M. Rey Juan Carlos I de España : por la extraordinaria contribución de don Jorge Mario Vargas Llosa, apreciada universalmente, a la Literatura y a la Lengua española.</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Paquiro de Toros, junto a Pere Gimferrer, otorgado por suplemento El Cultural de El Mundo (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Personaje del Año 2011, otorgado por la edición española de la Revista Vanity Fair (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Tokio (Japón)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Insignia de la Orden del Águila Azteca, otorgada por el presidente del Gobierno de México, Felipe Calderón Hinojosa (México)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Gran Cruz de la Orden de Vasco Núñez de Balboa, concedida por el presidente de la República de Panamá, Ricardo Martinelli (Panamá)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Orden Peruana de la Justicia, en el Grado de Gran Cruz, otorgada por la Corte Suprema de la República (Lima)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Peruana Cayetano Heredia (Perú)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad APEC (República Dominicana)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Nacional José Enrique Rodó, otorgado por el Círculo de la Prensa de Uruguay (Uruguay)</h6>
-
-
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2012</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Las Palmas de Gran Canaria (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Premio FAES a la Libertad 2012, otorgado por la Fundación para el Análisis y los Estudios Sociales (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Juan de Mariana, otorgado por el Instituto Juan de Mariana (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Commandeur du Tastevin de la Confrérie des Chevaliers du Tastevin (Borgoña, Francia)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">I Premio Carlos Fuentes, concedido por el Consejo Nacional para la Cultura y las Artes (México)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa por la Universidad Femenina del Sagrado Corazón (Perú)</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2013</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Sofía (Bulgaria)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Internacional de Convivencia de la Ciudad Autónoma de Ceuta (España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Antonio de Sancha 2013 (Asociación de Editores de Madrid, España)</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Literario Giuseppe Tomasi di Lampedusa (Italia)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Huésped ilustre de la ciudad de Chacas en Áncash, Perú</h6>
-
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2014</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Carlos III de Madrid</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Florencia en Italia</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Nova de Lisboa en Portugal</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa por la Universidad de la República de Uruguay</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2015</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Princeton en Estados Unidos</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla Sorolla de la Sociedad Hispánica de América que distingue a quienes contribuyen a difundir la cultura y el arte en el ámbito hispano</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de estudios de Palermo de Italia</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Salamanca (España)</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla de Oro de la Comunidad de Madrid</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Eötvös Loránd de Hungría</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa por la Universidad de Carabobo en Venezuela</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2016</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Diego Portales, en Chile</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad Internacional Menéndez Pelayo</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de Burgos en España</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Doctor honoris causa por la Universidad de La Salle–Manila en Filipinas</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Internacional Pedro Henríquez Ureña por Ministerio de Cultura de la República Dominicana en República Dominicana</h6>
-            
-                <h5>Distinción/Membresía</h5>
-                <h6>Doctor honoris causa por la Universidad de Friburgo en Suiza</h6>
-            </div>
-
-            <div class="box-texto-obra">
-                <h4>2017</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Medalla J. Paul Getty en por la Fundación J. Paul Getty Trust en Estados Unidos</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Yásnaia Poliana en Rusia</h6>
-            </div>
-
-            <div class="box-texto-obra padding-bottom-290">
-                <h4>2018</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6 style="margin-bottom: 30px;">Título de profesor Emérito de la Universidad Adolfo Ibáñez, Chile 2018</h6>
-
-                <h5>Premio/Primer lugar</h5>
-                <h6>Doctor honoris causa por la Universidad de Especialidades Espíritu Santo en Ecuador</h6>
-            </div>            
-        </div>        
- 
-        <h4 id="decada-8">
-            2020 - 2023
-        </h4>
-        <div class="box-titulo-secciones">
-            <h6>Obra literaria</h6>
-            <h6>Premios y reconocimientos</h6>
-        </div>
-
-        <div class="box-columna-izq">
-            <div class="box-item-timeline padding-bottom-95">
-                <div class="box-portada-obra ">
-                    <img src="../img/bg-timeline-2020.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2020</h4>
-                    <h5>Ensayo</h5>
-                    <h6>Medio Siglo con Borges</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-110">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2021.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2021</h4>
-                    <h5>Cuento/ Relato</h5>
-                    <h6>Los Vientos</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline padding-bottom-70">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2022.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2022</h4>
-                    <h5>Ensayo</h5>
-                    <h6>La Mirada Quieta</h6>
-                </div>
-            </div>
-            <div class="box-item-timeline">
-                <div class="box-portada-obra">
-                    <img src="../img/bg-timeline-2023.jpg" alt="" width="100%">
-                </div>                
-                <div class="box-texto-obra">
-                    <h4>2023</h4>
-                    <h5>Ensayo</h5>
-                    <h6 style="padding-bottom: 30px;">Le dedico mi silencio</h6>
-
-                    <h5>Ensayo</h5>
-                    <h6>Un Bárbaro en París: Textos sobre la Cultura Francesa</h6>
-                </div>
-            </div>                     
-        </div>
-
-        <div class="box-columna-der">
-            <div class="box-texto-obra padding-bottom-15">
-                <h4>2020</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6 style="margin-bottom: 30px;">Premio Francisco Umbral por su novela Tiempos recios</h6>
-
-                <h5>Distinción/Membresía</h5>
-                <h6>Medalla de Oro de Madrid</h6>
-            </div>
-
-            <div class="box-texto-obra padding-bottom-65">
-                <h4>2021</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio AMI (Asociación de Medios de Información) a la Defensa del Periodismo de Calidad</h6>
-            </div>
-
-            <div class="box-texto-obra padding-bottom-100">
-                <h4>2022</h4>
-                <h5>Premio/Primer lugar</h5>
-                <h6>Premio Madrileño del Año 2022</h6>
-            </div>
-
-            <div class="box-texto-obra padding-bottom-145">
-                <h4>2023</h4>
-                <h5>Distinción/Membresía</h5>
-                <h6>Gran collar de la Orden El Sol del Perú (Perú)</h6>
-            </div>
-        </div>       
-
-        <div class="clear"></div>   
-    </div>
+   </div>    
 
     <div class="box-footer">
         <img src="https://nuevasnarrativasec.github.io/edificio-comercio-centenario/img/logo-comercio.png" alt="" width="100%">
@@ -1566,17 +324,17 @@
             </li>
         </ul>
     </div>
-      
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
     <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/el-metro-interminable-ecpm/js/ScrollMagic.min.js"></script>
-    
+
     <!-- lapiz timeline -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             var controller = new ScrollMagic.Controller();
 
             var scene = new ScrollMagic.Scene({
-                triggerElement: "#decada-1",
+                triggerElement: ".box-main-autor",
                 triggerHook: 0.5, 
                 reverse: true 
             })
@@ -1585,135 +343,16 @@
         });
     </script>
 
-    <!-- scroll timeline -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll(".decadas li").forEach(li => {
-                li.addEventListener("click", function () {
-                    const targetId = this.id.replace("btn-", ""); 
-                    const targetElement = document.getElementById(targetId);
-
-                    if (targetElement) {
-                        targetElement.scrollIntoView({ behavior: "smooth" });
-                    }
-                });
-            });
-        });
-
-    </script>
-
     <!-- flecha subir -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             document.querySelector(".flecha-subir").addEventListener("click", function () {
-                const targetElement = document.querySelector(".decadas");
+                const targetElement = document.querySelector(".box-main-autor");
                 if (targetElement) {
                     targetElement.scrollIntoView({ behavior: "smooth" });
                 }
             });
         });
-    </script>
-
-    <!-- mapa -->
-    <script>
-        // Crear el mapa centrado en Lima, Perú
-        var map = L.map('map', {
-            center: [-12.0464, -77.0428],
-            zoom: 3,
-            scrollWheelZoom: true,
-            touchZoom: false,
-            zoomControl: false
-        });
-
-        // Agregar capa base de Esri World Gray Canvas
-        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-            minZoom: 0,
-            maxZoom: 20,
-        }).addTo(map);
-
-        // Agregar controles de zoom en la esquina inferior derecha
-        L.control.zoom({ position: "bottomright" }).addTo(map);
-
-        // Datos de los lugares
-        var lugares = [
-            { lat: 18.4801972, lng: -69.942111, lugar: "Santo Domingo", menciones: "61", novela: "La Fiesta del Chivo", radio: 61000 },
-            { lat: 40.7127281, lng: -74.0060152, lugar: "Nueva York", menciones: "93", novela: "La Fiesta del Chivo", radio: 93000 },
-            { lat: 38.8950368, lng: -77.0365427, lugar: "Washington", menciones: "29", novela: "La Fiesta del Chivo", radio: 29000 },
-            { lat: 48.8534951, lng: 2.3483915, lugar: "París", menciones: "2", novela: "La Fiesta del Chivo", radio: 6000 },
-            { lat: 18.4174531, lng: -70.1103346, lugar: "San Cristobal", menciones: "2", novela: "La Fiesta del Chivo", radio: 6000 },
-            { lat: 19.4366635, lng: -71.5703737, lugar: "Dajabón", menciones: "3", novela: "La Fiesta del Chivo", radio: 6000 },
-            { lat: 19.1089256, lng: -70.6781493, lugar: "República Dominicana", menciones: "113", novela: "La Fiesta del Chivo", radio: 113000 },
-            { lat: 19.2518104, lng: -72.2853283, lugar: "Haití", menciones: "5", novela: "La Fiesta del Chivo", radio: 5000 },
-            { lat: 39.3803843, lng: -97.4653468, lugar: "Estados Unidos", menciones: "6", novela: "La Fiesta del Chivo | La guerra del fin del mundo", radio: 6000 },
-            { lat: -12.143959, lng: -77.0202681, lugar: "Barranco", menciones: "12", novela: "La ciudad y los perros", radio: 12000 },
-            { lat: -12.1206214, lng: -77.0294993, lugar: "Miraflores", menciones: "16", novela: "La ciudad y los perros | Conversación en la catedral", radio: 16000 },
-            { lat: -12.0957149, lng: -77.0682243, lugar: "Magdalena del Mar", menciones: "1", novela: "La ciudad y los perros", radio: 1000 },
-            { lat: -12.0641355, lng: -77.0295563, lugar: "La Victoria", menciones: "2", novela: "La ciudad y los perros", radio: 2000 },
-            { lat: -12.0621065, lng: -77.0365256, lugar: "Lima", menciones: "50", novela: "La ciudad y los perros | Conversación en la catedral", radio: 10000 },
-            { lat: -16.3988667, lng: -71.5369607, lugar: "Arequipa", menciones: "11", novela: "La ciudad y los perros | Conversación en la catedral", radio: 11000 },
-            { lat: -5, lng: -80.333333, lugar: "Piura", menciones: "32", novela: "La ciudad y los perros | La casa verde", radio: 32000 },
-            { lat: -6.7716146, lng: -79.8387175, lugar: "Chiclayo", menciones: "32", novela: "La ciudad y los perros", radio: 5000 },
-            { lat: -12.9833481, lng: -72.8779533, lugar: "Perú", menciones: "11", novela: "La ciudad y los perros | Conversación en la catedral", radio: 11000 },
-            { lat: -4.8986276, lng: -77.953714, lugar: "Nieva", menciones: "8", novela: "La casa verde", radio: 8000 },
-            { lat: -4.8480272, lng: -76.8652783, lugar: "Río Marañón", menciones: "7", novela: "La casa verde", radio: 7000 },
-            { lat: -12.1709478, lng: -77.02126, lugar: "Chorrillos", menciones: "1", novela: "Conversación en la catedral", radio: 5000 },
-            { lat: -11.9878157, lng: -77.0982509, lugar: "San Martín de Porres", menciones: "3", novela: "Conversación en la catedral", radio: 6000 },
-            { lat: -11.6965537, lng: -77.1116547, lugar: "Ancón", menciones: "2", novela: "Conversación en la catedral", radio: 6000 },
-            { lat: -12.0266773, lng: -77.0340939, lugar: "Rímac", menciones: "2", novela: "Conversación en la catedral", radio: 6000 },
-            { lat: -12.1141978, lng: -77.0104749, lugar: "Surquillo", menciones: "2", novela: "Conversación en la catedral", radio: 6000 },
-            { lat: -12.1746636, lng: -77.0335499, lugar: "La Herradura", menciones: "1", novela: "Conversación en la catedral", radio: 5000 },
-            { lat: -1.4515326, lng: -48.4606171, lugar: "Canudos", menciones: "50", novela: "La guerra del fin del mundo", radio: 50000 },
-            { lat: -10.3652838, lng: -38.0415825, lugar: "Vaza-Barris", menciones: "2", novela: "La guerra del fin del mundo", radio: 10000 },
-            { lat: -12.285251, lng: -41.9294776, lugar: "Bahía", menciones: "10", novela: "La guerra del fin del mundo", radio: 20000 },
-            { lat: -8.4116316, lng: -37.5919699, lugar: "Pernambuco", menciones: "1", novela: "La guerra del fin del mundo", radio: 5000 },
-            { lat: -5.3264703, lng: -39.7156073, lugar: "Ceará", menciones: "1", novela: "La guerra del fin del mundo", radio: 5000 },
-            { lat: -12.9822499, lng: -38.4812772, lugar: "Salvador", menciones: "2", novela: "La guerra del fin del mundo", radio: 10000 },
-            { lat: -7.3977472, lng: -35.9214813, lugar: "Queimadas", menciones: "3", novela: "La guerra del fin del mundo", radio: 6000 },
-            { lat: -10.4391775, lng: -39.3326972, lugar: "Monte Santo", menciones: "2", novela: "La guerra del fin del mundo", radio: 10000 },
-            { lat: -10.3289386, lng: -37.2079657, lugar: "Cumbe", menciones: "2", novela: "La guerra del fin del mundo", radio: 6000 },
-            { lat: 41.3828939, lng: 2.1774322, lugar: "Barcelona", menciones: "1", novela: "La guerra del fin del mundo", radio: 5000 },
-            { lat: -11.998254, lng: -49.53062216, lugar: "Brasil", menciones: "58", novela: "La guerra del fin del mundo", radio: 58000 },
-            { lat: 40.463667, lng: -3.74922, lugar: "España", menciones: "2", novela: "La guerra del fin del mundo", radio: 6000 },
-            { lat: 41.0138397, lng: 28.9496593, lugar: "Turquía", menciones: "1", novela: "La guerra del fin del mundo", radio: 5000 },
-            { lat: 26.42963187, lng: 29.26497676, lugar: "Egipto", menciones: "2", novela: "La guerra del fin del mundo", radio: 10000 }
-        ];
-
-        // Función para personalizar los clusters
-        var markers = L.markerClusterGroup({
-            iconCreateFunction: function (cluster) {
-                var count = cluster.getChildCount(); // Número de marcadores en el cluster
-                var color = count > 50 ? "#6c5182" : count > 20 ? "#6c5182" : "#6c5182"; // Rojo, Naranja o Azul
-
-                return L.divIcon({
-                    html: `<div style="
-                        background: ${color};
-                        width: 40px; height: 40px;
-                        border-radius: 50%;
-                        display: flex; align-items: center; justify-content: center;
-                        color: white; font-size: 14px; font-weight: bold;">
-                        ${count}</div>`,
-                    className: "custom-cluster",
-                    iconSize: [40, 40]
-                });
-            }
-        });
-
-        // Agregar marcadores al grupo
-        lugares.forEach(function (lugar) {
-            let marker = L.marker([lugar.lat, lugar.lng])
-                .bindPopup(`
-                    <strong>Lugar:</strong> ${lugar.lugar} <br>
-                    <strong>Menciones:</strong> ${lugar.menciones} <br>
-                    <strong>Novela:</strong> ${lugar.novela}
-                `);
-
-            markers.addLayer(marker);
-        });
-
-        // Agregar los clusters al mapa
-        map.addLayer(markers);
-
     </script>
 
 </body>
