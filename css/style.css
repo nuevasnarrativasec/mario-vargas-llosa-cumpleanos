@@ -912,7 +912,7 @@ body, html {
         #personaje-6 img{
             display: inline-block;
             margin: 0 40px 20px;       
-            max-width: 130px;
+            max-width: 165px;
         }
         #personaje-7 img{
             display: block;
@@ -932,7 +932,7 @@ body, html {
         #personaje-10 img{
             display: block;
             margin: 0 auto 20px;       
-            max-width: 140px;
+            max-width: 188px;
         }
         #personaje-4 .box-texto-personaje,
         #personaje-5 .box-texto-personaje,
