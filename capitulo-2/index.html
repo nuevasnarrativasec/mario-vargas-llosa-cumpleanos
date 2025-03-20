@@ -56,17 +56,7 @@
             vida en el que el peso de las imágenes ha sido gravitante. Y él, como lo contó a El Comercio en diversas entrevistas, siempre experimento una sensación ambigua al atestiguar los años pasados expuestos de esa forma. Como si apreciara los retratos de otra persona.  Este manojo de imágenes da apurada cuenta de la trayectoria de un hombre que toda su vida adulta ha meditado sobre el poder y las historias de quiénes lo ejercen y de quienes se someten a él.
         </p>
     </div>
-
-    <div class="box-main-autor">
-        <span class="separador-autor"></span>
-        <div class="box-autor">            
-            <div class="info-autor" style="text-align: center;">
-                <h6>Material fotográfico del</h6>
-                <h5>Archivo histórico de El Comercio</h5>                
-            </div>
-        </div>
-        <span class="separador-autor"></span>
-    </div>
+  
 
     <img src="../img/flecha-subir.png" alt="" width="100%" class="flecha-subir">
 
@@ -148,6 +138,13 @@
                 </p>
             </div>
         </div>
+        <div class="box-foto" id="foto-21">
+            <img src="../img/bg-galeria-21.jpg" alt="" width="100%">
+            <p>
+                Mario Vargas Llosa cuando recibe el Premio Nobel. Ilustración: Víctor Aguilar.
+            </p>
+        </div>
+        <div class="clear"></div>
         <div class="box-foto" id="foto-13">
             <img src="../img/bg-galeria-13.jpg" alt="" width="100%">
             <p>
@@ -197,12 +194,7 @@
                 A fines de noviembre de 2024, Álvaro Vargas Llosa publicó en su cuenta en X, imágenes del paseo con su padre por el centro de Lima, donde visitaron lo que queda del local que albergaba el célebre bar 'La Catedral', inmortalizado por el escritor en su novela 'Conversación en La Catedral' (1969). Foto: X de Alvaro Vargas Llosa.
             </p>
         </div>
-        <div class="box-foto" id="foto-21">
-            <img src="../img/bg-galeria-21.jpg" alt="" width="100%">
-            <p>
-                Ilustración: Víctor Aguilar.
-            </p>
-        </div>
+        
     </div>
 
     <div class="box-footer">
@@ -290,7 +282,7 @@
             var controller = new ScrollMagic.Controller();
 
             var scene = new ScrollMagic.Scene({
-                triggerElement: ".box-main-autor",
+                triggerElement: ".box-main-galeria",
                 triggerHook: 0.5, 
                 reverse: true 
             })
@@ -303,7 +295,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             document.querySelector(".flecha-subir").addEventListener("click", function () {
-                const targetElement = document.querySelector(".box-main-autor");
+                const targetElement = document.querySelector(".header-interior");
                 if (targetElement) {
                     targetElement.scrollIntoView({ behavior: "smooth" });
                 }
